@@ -29,7 +29,6 @@ void *recv_send(void *arg);
 void *sendcount();
 int main(int argc, char const *argv[])
 {
-    
     // creat socket
     if ((socket_fd = socket(AF_INET, SOCK_STREAM, 0)) < 0)
     {
@@ -40,8 +39,14 @@ int main(int argc, char const *argv[])
     // bind ip port
     memset(&servaddr, 0, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
-    servaddr.sin_port = htons(SERVERPORT);
-    servaddr.sin_addr.s_addr = inet_addr(SERVERADDR);
+    if (argc == 3)
+        servaddr.sin_port = htons(argv[2]);
+    else
+        servaddr.sin_port = htons(SERVERPORT);
+    if (argc >= 2)
+        servaddr.sin_addr.s_addr = inet_addr(argv[1]);
+    else
+        servaddr.sin_addr.s_addr = inet_addr(SERVERADDR);
 
     if (bind(socket_fd, (struct sockaddr *)&servaddr, sizeof(servaddr)) < 0)
     {
@@ -105,8 +110,8 @@ void *quit()
     while (1)
     {
         char msg[MAXLINE] = {0};
-        scanf("%s", msg);
-        msg[strlen(msg)] = 0;
+        fgets(msg, MAXLINE, stdin);
+        msg[strlen(msg) - 1] = 0;
         server_send(msg);
         if (!strcmp("quit", msg))
         {
@@ -127,14 +132,15 @@ void addlog(char text[])
     fclose(log_fd);
 }
 
-int login(int *s, char name[])
+int login(int *s, char *name)
 {
     FILE *usr = 0;
     while ((usr = fopen("usrinfo", "r")) > 0)
     {
         char passwd[20] = {0}, hpasswd[20] = {0};
         int hasusr = 0;
-        read(*s, name, 10);
+        int len = read(*s, name, 10);
+        name[len] = 0;
         char fbuffer[50] = {0};
         while (!hasusr && fgets(fbuffer, 50, usr))
             if (!strncmp(name, fbuffer, strlen(name)))
@@ -152,7 +158,8 @@ int login(int *s, char name[])
         hasusr = 3;
         while (hasusr-- && *s > 0)
         {
-            read(*s, passwd, 20);
+            len = read(*s, passwd, 20);
+            passwd[len] = 0;
             if (strcmp(passwd, hpasswd))
                 write(*s, "NO", 3);
             else
@@ -167,14 +174,15 @@ int login(int *s, char name[])
     return 0;
 }
 
-int sign_in(int *s, char name[10])
+int sign_in(int *s, char *name)
 {
     FILE *usr = 0;
     while ((usr = fopen("usrinfo", "r")) > 0 && *s > 0)
     {
         char fbuffer[50] = {0};
         int hasusr = 0;
-        read(*s, name, 10);
+        int len = read(*s, name, 10);
+        name[len] = 0;
         while (!hasusr && fgets(fbuffer, 50, usr))
             if (!strncmp(name, fbuffer, strlen(name)))
                 hasusr = 1;
@@ -188,11 +196,13 @@ int sign_in(int *s, char name[10])
             write(*s, "NO", 3);
     }
     char passwd[20] = {0};
-    read(*s, passwd, 20);
+    int len = read(*s, passwd, 20);
+    passwd[len] = 0;
     if ((usr = fopen("usrinfo", "a")) > 0)
     {
-        sprintf(usr, "%s %s\n", name, passwd);
+        fprintf(usr, "%s %s\n", name, passwd);
         write(*s, "OK", 3);
+        fclose(usr);
         return 1;
     }
     else
@@ -205,7 +215,6 @@ int sign_in(int *s, char name[10])
 void *recv_send(void *asg)
 {
     int client = *(int *)asg;
-    free(asg);
     char name[10] = {0};
     char inputext[MAXLINE] = {0};
     int flag = 0;
@@ -215,7 +224,7 @@ void *recv_send(void *asg)
     if (!strcmp(inputext, "login"))
         flag = login(&client, name);
     else if (!strcmp(inputext, "register"))
-        flag = sign_in(&client, &name);
+        flag = sign_in(&client, name);
     else
     {
         close(client);
@@ -248,14 +257,15 @@ void *recv_send(void *asg)
     {
         memset(inputext, 0, sizeof(inputext));
         int len = read(connect_fd[id], inputext, MAXLINE);
-        if (!strcmp(inputext, "quit\n"))
+        inputext[len] = 0;
+        if (!strcmp(inputext, "quit"))
         {
             closesock(&connect_fd[id]);
             sprintf(sendtext, "%s offline, now online: %d", name, connect_count);
             server_send(sendtext);
             return;
         }
-        else if (!strcmp(inputext, "count\n"))
+        else if (!strcmp(inputext, "count"))
         {
             memset(sendtext, 0, sizeof(sendtext));
             sprintf(sendtext, "now online: %d", connect_count);
@@ -268,8 +278,8 @@ void *recv_send(void *asg)
             sprintf(sendtext, "%s : %s", name, inputext);
             addlog(sendtext);
             for (int i = 0; i < MAXMEM; i++)
-                if (i != id && connect_fd[i] != -1)
-                    if (write(connect_fd[i], sendtext, strlen(sendtext)))
+                if (connect_fd[i] > 2 && connect_fd[i]!=connect_fd[id])
+                    if (write(connect_fd[i], sendtext, strlen(sendtext)) < 0)
                         closesock(&connect_fd[id]);
         }
         if (connect_fd[id] < 0)

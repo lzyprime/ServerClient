@@ -20,9 +20,9 @@ int socket_fd;
 
 int login();
 int sign_in();
-void *fromserver();
+void *toserver();
 
-int main()
+int main(int argc, char const *argv[])
 {
     struct sockaddr_in servaddr;
 
@@ -36,8 +36,11 @@ int main()
     // server addr
     memset(&servaddr, 0, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
-    servaddr.sin_port = htons(SERVERPORT);
-    if (inet_aton(SERVERADDR, &servaddr.sin_addr) < 0)
+    if (argc == 3)
+        servaddr.sin_port = htons(argv[2]);
+    else
+        servaddr.sin_port = htons(SERVERPORT);
+    if (argc >= 2 && inet_aton(argv[1], &servaddr.sin_addr) < 0 || argc < 2 && inet_aton(SERVERADDR, &servaddr.sin_addr) < 0)
     {
         printf("inet_aton error.\n");
         return -1;
@@ -60,14 +63,14 @@ int main()
         close(socket_fd);
         exit(0);
     }
-    
+
     printf("1.login\n2.register\n");
     int flag = 0;
     while (~scanf("%d", &flag))
     {
         printf("%d", flag);
         if (flag == 1 || flag == 2)
-        break;
+            break;
         puts("1.login\n2.register");
     }
 
@@ -96,16 +99,17 @@ int main()
     }
 
     // listen server
-    pthread_create(malloc(sizeof(pthread_t)), NULL, fromserver, NULL);
-    
+    pthread_create(malloc(sizeof(pthread_t)), NULL, toserver, NULL);
+
+    char server_in[MAXLINE] = {0};
     while (1)
     {
-        if (socket_fd < 0)
-            exit(0);
-        fgets(inputext, MAXLINE, stdin);
-        if (strlen(inputext))
-            write(socket_fd, inputext, strlen(inputext));
-        if (!strcmp(inputext, "quit\n"))
+        memset(inputext, 0, sizeof(inputext));
+        int len = read(socket_fd, server_in, MAXLINE);
+        server_in[len] = 0;
+        if (!strlen(inputext))
+            inputext[len] = 0, puts(server_in);
+        if (!strcmp(server_in, "server: quit"))
         {
             close(socket_fd);
             exit(0);
@@ -114,16 +118,17 @@ int main()
     return 0;
 }
 
-void *fromserver()
+void *toserver()
 {
+    char inputext[MAXLINE];
     while (1)
     {
-        char server_in[MAXLINE] = {0};
-        read(socket_fd, server_in, MAXLINE);
-        if (!strlen(server_in))
-            continue;
-        puts(server_in);
-        if (!strcmp(server_in, "server: quit"))
+        memset(inputext, 0, sizeof(inputext));
+        fgets(inputext, MAXLINE, stdin);
+        inputext[strlen(inputext) - 1] = 0;
+        if (strlen(inputext))
+            write(socket_fd, inputext, strlen(inputext));
+        if (!strcmp(inputext, "quit"))
         {
             close(socket_fd);
             exit(0);

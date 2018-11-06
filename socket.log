@@ -1,758 +1,102 @@
-Mon Nov  5 12:29:57 2018
- server start success
-Mon Nov  5 12:30:52 2018
- server start success
-Mon Nov  5 12:30:55 2018
- server: online: 1
-Mon Nov  5 12:31:26 2018
- server: online: 1
-Mon Nov  5 12:31:41 2018
- server: online: 1
-Mon Nov  5 12:42:25 2018
- server start success
-Mon Nov  5 12:44:00 2018
- server:  join, now online: 1
-Mon Nov  5 13:58:51 2018
- server start success
-Mon Nov  5 14:03:57 2018
- server start success
-Mon Nov  5 14:05:35 2018
- server start success
-Mon Nov  5 14:11:04 2018
- server start success
-Mon Nov  5 14:17:32 2018
- server start success
-Mon Nov  5 14:18:02 2018
- server: quit
-Mon Nov  5 14:24:38 2018
- server start success
-Mon Nov  5 14:30:04 2018
- server start success
-Mon Nov  5 14:30:09 2018
+Tue Nov  6 11:23:50 2018
  Bind failed.
-Mon Nov  5 14:36:02 2018
+Tue Nov  6 11:24:05 2018
  server start success
-Mon Nov  5 14:38:09 2018
- server: quit
-Mon Nov  5 14:39:58 2018
- server start success
-Mon Nov  5 14:40:55 2018
- server: quit
-Mon Nov  5 14:46:46 2018
- server start success
-Mon Nov  5 14:52:24 2018
- server start success
-Mon Nov  5 14:54:09 2018
- server start success
-Mon Nov  5 14:57:33 2018
- server start success
-Mon Nov  5 15:01:11 2018
- server start success
-Mon Nov  5 15:05:00 2018
- server start success
-Mon Nov  5 15:05:08 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 15:05:08 2018
- server: online: 1
-Mon Nov  5 15:05:13 2018
- server: online: 1
-Mon Nov  5 15:05:18 2018
- server: online: 1
-Mon Nov  5 15:05:23 2018
- server: online: 1
-Mon Nov  5 15:05:28 2018
- server: online: 1
-Mon Nov  5 15:05:33 2018
- server: online: 1
-Mon Nov  5 15:11:18 2018
- server start success
-Mon Nov  5 15:16:55 2018
- server start success
-Mon Nov  5 15:20:37 2018
- server start success
-Mon Nov  5 15:20:51 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 15:20:51 2018
- server: online: 1
-Mon Nov  5 15:20:56 2018
- server: online: 1
-Mon Nov  5 15:21:01 2018
- server: online: 1
-Mon Nov  5 15:21:29 2018
- server start success
-Mon Nov  5 15:22:09 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 15:22:09 2018
- server: online: 1
-Mon Nov  5 15:22:14 2018
- server: online: 1
-Mon Nov  5 15:22:19 2018
- server: online: 1
-Mon Nov  5 15:22:24 2018
- server: online: 1
-Mon Nov  5 15:22:29 2018
- server: online: 1
-Mon Nov  5 15:22:34 2018
- server: online: 1
-Mon Nov  5 15:22:39 2018
- server: online: 1
-Mon Nov  5 15:22:44 2018
- server: online: 1
-Mon Nov  5 15:22:49 2018
- server: online: 1
-Mon Nov  5 15:22:54 2018
- server: online: 1
-Mon Nov  5 15:22:59 2018
- server: online: 1
-Mon Nov  5 15:24:36 2018
- server start success
-Mon Nov  5 15:24:51 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 15:24:51 2018
- server: online: 1
-Mon Nov  5 15:24:56 2018
- server: online: 1
-Mon Nov  5 15:25:01 2018
- server: online: 1
-Mon Nov  5 15:27:17 2018
- server start success
-Mon Nov  5 15:27:30 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 15:27:30 2018
- server: online: 1
-Mon Nov  5 15:28:05 2018
- server: online: 1
-Mon Nov  5 15:28:37 2018
- server: online: 1
-Mon Nov  5 15:36:43 2018
- server start success
-Mon Nov  5 15:36:57 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 15:36:57 2018
- server: online: 1
-Mon Nov  5 15:37:02 2018
- server: online: 1
-Mon Nov  5 15:37:07 2018
- server: online: 1
-Mon Nov  5 15:37:12 2018
- server: online: 1
-Mon Nov  5 15:37:17 2018
- server: lzyprime join, now online: 2
-Mon Nov  5 15:37:17 2018
- server: online: 2
-Mon Nov  5 15:37:22 2018
- server: online: 2
-Mon Nov  5 15:37:27 2018
- server: online: 2
-Mon Nov  5 15:37:32 2018
- server: online: 2
-Mon Nov  5 15:37:37 2018
- server: online: 2
-Mon Nov  5 15:37:42 2018
- server: online: 2
-Mon Nov  5 15:37:47 2018
- server: online: 2
-Mon Nov  5 15:37:52 2018
- server: online: 2
-Mon Nov  5 15:37:57 2018
- server: online: 2
-Mon Nov  5 15:38:02 2018
- server: online: 2
-Mon Nov  5 15:38:07 2018
- server: online: 2
-Mon Nov  5 15:38:12 2018
- server: online: 2
-Mon Nov  5 15:38:17 2018
- server: online: 2
-Mon Nov  5 15:38:22 2018
- server: online: 2
-Mon Nov  5 15:38:27 2018
- server: online: 2
-Mon Nov  5 15:38:32 2018
- server: online: 2
-Mon Nov  5 15:38:37 2018
- server: online: 2
-Mon Nov  5 15:38:42 2018
- server: online: 2
-Mon Nov  5 15:38:47 2018
- server: online: 2
-Mon Nov  5 15:38:52 2018
- server: online: 2
-Mon Nov  5 15:38:57 2018
- server: online: 2
-Mon Nov  5 15:39:02 2018
- server: online: 2
-Mon Nov  5 15:39:07 2018
- server: online: 2
-Mon Nov  5 15:39:12 2018
- server: online: 2
-Mon Nov  5 15:39:17 2018
- server: online: 2
-Mon Nov  5 15:39:22 2018
- server: online: 2
-Mon Nov  5 15:39:27 2018
- server: online: 2
-Mon Nov  5 15:39:32 2018
- server: online: 2
-Mon Nov  5 15:39:37 2018
- server: online: 2
-Mon Nov  5 15:39:42 2018
- server: online: 2
-Mon Nov  5 15:39:47 2018
- server: online: 2
-Mon Nov  5 15:39:52 2018
- server: online: 2
-Mon Nov  5 15:39:57 2018
- server: online: 2
-Mon Nov  5 15:40:02 2018
- server: online: 2
-Mon Nov  5 15:40:07 2018
- server: online: 2
-Mon Nov  5 15:40:12 2018
- server: online: 2
-Mon Nov  5 15:40:17 2018
- server: online: 2
-Mon Nov  5 15:40:22 2018
- server: online: 2
-Mon Nov  5 15:40:27 2018
- server: online: 2
-Mon Nov  5 15:40:32 2018
- server: online: 2
-Mon Nov  5 15:40:37 2018
- server: online: 2
-Mon Nov  5 15:40:43 2018
- server: online: 2
-Mon Nov  5 15:40:48 2018
- server: online: 2
-Mon Nov  5 15:40:53 2018
- server: online: 2
-Mon Nov  5 15:40:58 2018
- server: online: 2
-Mon Nov  5 15:41:03 2018
- server: online: 2
-Mon Nov  5 15:41:08 2018
- server: online: 2
-Mon Nov  5 15:41:13 2018
- server: online: 2
-Mon Nov  5 15:41:18 2018
- server: online: 2
-Mon Nov  5 15:41:23 2018
- server: online: 2
-Mon Nov  5 15:41:28 2018
- server: online: 2
-Mon Nov  5 15:41:33 2018
- server: online: 2
-Mon Nov  5 15:41:38 2018
- server: online: 2
-Mon Nov  5 15:41:43 2018
- server: online: 2
-Mon Nov  5 15:41:48 2018
- server: online: 2
-Mon Nov  5 15:41:53 2018
- server: online: 2
-Mon Nov  5 15:41:58 2018
- server: online: 2
-Mon Nov  5 15:42:03 2018
- server: online: 2
-Mon Nov  5 15:42:08 2018
- server: online: 2
-Mon Nov  5 15:42:13 2018
- server: online: 2
-Mon Nov  5 15:42:18 2018
- server: online: 2
-Mon Nov  5 15:42:23 2018
- server: online: 2
-Mon Nov  5 15:42:28 2018
- server: online: 2
-Mon Nov  5 15:42:33 2018
- server: online: 2
-Mon Nov  5 15:42:38 2018
- server: online: 2
-Mon Nov  5 15:43:13 2018
- server start success
-Mon Nov  5 15:43:29 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 15:43:29 2018
- server: online: 1
-Mon Nov  5 15:43:34 2018
- server: online: 1
-Mon Nov  5 15:43:39 2018
- server: online: 1
-Mon Nov  5 15:49:12 2018
- server start success
-Mon Nov  5 15:49:32 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 15:49:32 2018
- server: online: 1
-Mon Nov  5 15:49:37 2018
- server: online: 1
-Mon Nov  5 15:49:42 2018
- server: online: 1
-Mon Nov  5 15:49:45 2018
- lzyprime : ?
-Mon Nov  5 15:49:47 2018
- server: online: 1
-Mon Nov  5 15:49:52 2018
- server: online: 1
-Mon Nov  5 15:54:29 2018
- server start success
-Mon Nov  5 15:55:13 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 15:55:13 2018
- server: online: 1
-Mon Nov  5 15:55:13 2018
- lzyprime : 123456
-
-Mon Nov  5 15:55:18 2018
- server: online: 1
-Mon Nov  5 15:56:07 2018
- server start success
-Mon Nov  5 15:56:22 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 15:56:22 2018
- server: online: 1
-Mon Nov  5 15:56:22 2018
- lzyprime : 
-ogin
-Mon Nov  5 15:56:27 2018
- server: online: 1
-Mon Nov  5 15:56:32 2018
- server: online: 1
-Mon Nov  5 15:56:37 2018
- server: online: 1
-Mon Nov  5 15:56:42 2018
- server: online: 1
-Mon Nov  5 15:56:47 2018
- server: online: 1
-Mon Nov  5 15:56:52 2018
- server: online: 1
-Mon Nov  5 15:56:57 2018
- server: online: 1
-Mon Nov  5 15:56:58 2018
- server: lzyprime join, now online: 2
-Mon Nov  5 15:56:58 2018
- lzyprime : 
-ogin
-Mon Nov  5 15:57:02 2018
- server: online: 2
-Mon Nov  5 15:57:06 2018
- lzyprime : 1234
-
-Mon Nov  5 15:57:07 2018
- server: online: 2
-Mon Nov  5 15:57:12 2018
- server: online: 2
-Mon Nov  5 15:57:17 2018
- server: online: 2
-Mon Nov  5 15:57:17 2018
- lzyprime : quit
-
-Mon Nov  5 15:57:22 2018
- server: online: 2
-Mon Nov  5 15:57:24 2018
- lzyprime : quit
-
-Mon Nov  5 15:57:27 2018
- server: online: 2
-Mon Nov  5 15:57:30 2018
- lzyprime : quit
-
-Mon Nov  5 15:57:32 2018
- server: online: 2
-Mon Nov  5 15:57:37 2018
- server: online: 2
-Mon Nov  5 15:57:42 2018
- server: online: 2
-Mon Nov  5 15:57:47 2018
- server: online: 2
-Mon Nov  5 15:57:52 2018
- server: online: 2
-Mon Nov  5 15:57:57 2018
- server: online: 2
-Mon Nov  5 15:58:02 2018
- server: online: 2
-Mon Nov  5 15:58:07 2018
- server: online: 2
-Mon Nov  5 15:58:12 2018
- server: online: 2
-Mon Nov  5 15:58:17 2018
- server: online: 2
-Mon Nov  5 15:58:22 2018
- server: online: 2
-Mon Nov  5 15:58:27 2018
- server: online: 2
-Mon Nov  5 15:58:32 2018
- server: online: 2
-Mon Nov  5 15:58:37 2018
- server: online: 2
-Mon Nov  5 15:58:42 2018
- server: online: 2
-Mon Nov  5 15:58:47 2018
- server: online: 2
-Mon Nov  5 15:58:52 2018
- server: online: 2
-Mon Nov  5 15:58:57 2018
- server: online: 2
-Mon Nov  5 15:59:02 2018
- server: online: 2
-Mon Nov  5 15:59:07 2018
- server: online: 2
-Mon Nov  5 15:59:12 2018
- server: online: 2
-Mon Nov  5 15:59:17 2018
- server: online: 2
-Mon Nov  5 15:59:22 2018
- server: online: 2
-Mon Nov  5 15:59:27 2018
- server: online: 2
-Mon Nov  5 15:59:28 2018
- server: sssssssssssss
-Mon Nov  5 15:59:32 2018
- server: online: 2
-Mon Nov  5 15:59:34 2018
- server: aaaaaaaaaaaaaaaaaaaaaaaa
-Mon Nov  5 15:59:37 2018
- server: online: 2
-Mon Nov  5 15:59:39 2018
- lzyprime : quit
-
-Mon Nov  5 15:59:42 2018
- server: online: 2
-Mon Nov  5 15:59:45 2018
- lzyprime : quit
-
-Mon Nov  5 15:59:47 2018
- server: online: 2
-Mon Nov  5 15:59:49 2018
- server: quit
-Mon Nov  5 16:35:23 2018
- server start success
-Mon Nov  5 16:35:42 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 16:35:42 2018
- lzyprime : 
-ogin
-Mon Nov  5 16:36:00 2018
- lzyprime : count
-
-Mon Nov  5 16:36:15 2018
- lzyprime : count
-
-Mon Nov  5 16:36:20 2018
- lzyprime : ssssssssssssss
-
-Mon Nov  5 16:36:23 2018
- lzyprime : count
-ssssssss
-
-Mon Nov  5 16:37:16 2018
- Bind failed.
-Mon Nov  5 16:37:23 2018
- Bind failed.
-Mon Nov  5 16:37:24 2018
- Bind failed.
-Mon Nov  5 16:37:25 2018
- Bind failed.
-Mon Nov  5 16:37:45 2018
- Bind failed.
-Mon Nov  5 16:37:46 2018
- Bind failed.
-Mon Nov  5 16:37:47 2018
- Bind failed.
-Mon Nov  5 16:37:48 2018
- Bind failed.
-Mon Nov  5 16:37:49 2018
- Bind failed.
-Mon Nov  5 16:37:58 2018
- Bind failed.
-Mon Nov  5 16:37:59 2018
- Bind failed.
-Mon Nov  5 16:38:01 2018
- Bind failed.
-Mon Nov  5 16:39:22 2018
- server start success
-Mon Nov  5 16:39:43 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 16:39:43 2018
- lzyprime : 
-ogin
-Mon Nov  5 16:39:56 2018
- lzyprime : 111
-n
-Mon Nov  5 16:40:00 2018
- lzyprime : 222
-n
-Mon Nov  5 16:40:02 2018
- lzyprime : 333333333
-
-Mon Nov  5 16:40:04 2018
- lzyprime : 444444444
-
-Mon Nov  5 16:40:05 2018
- lzyprime : 11111
-444
-
-Mon Nov  5 16:40:06 2018
- lzyprime : 11
-11
-444
-
-Mon Nov  5 16:40:08 2018
- lzyprime : 11
-11
-444
-
-Mon Nov  5 16:40:09 2018
- lzyprime : 111111
-44
-
-Mon Nov  5 16:40:11 2018
- lzyprime : 22
-111
-44
-
-Mon Nov  5 16:40:12 2018
- lzyprime : 22222
-
-44
-
-Mon Nov  5 16:40:13 2018
- lzyprime : 33
-22
-
-44
-
-Mon Nov  5 16:40:20 2018
- lzyprime : 
-3
-22
-
-44
-
-Mon Nov  5 16:40:23 2018
- lzyprime : count
-
-44
-
-Mon Nov  5 16:40:29 2018
- lzyprime : count
-
-44
-
-Mon Nov  5 16:40:32 2018
- lzyprime : qut
-t
-
-44
-
-Mon Nov  5 16:40:35 2018
- lzyprime : quit
-
-
-44
-
-Mon Nov  5 16:40:47 2018
- server: quit
-Mon Nov  5 16:55:57 2018
- server start success
-Mon Nov  5 16:56:15 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 16:56:15 2018
- lzyprime : 
-
-Mon Nov  5 16:57:41 2018
- server: lzyprime join, now online: 2
-Mon Nov  5 16:57:41 2018
- lzyprime : 
-
-Mon Nov  5 16:58:01 2018
- lzyprime : 123456
-
-Mon Nov  5 16:58:06 2018
- lzyprime : ssssss
-
-Mon Nov  5 16:58:07 2018
- lzyprime : sssssssssssssss
-
-Mon Nov  5 17:00:22 2018
- server: quit
-Mon Nov  5 17:00:27 2018
- server start success
-Mon Nov  5 17:00:49 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 17:00:49 2018
- lzyprime : 
-
-Mon Nov  5 17:01:06 2018
- server: 12345
-Mon Nov  5 17:01:10 2018
- server: 3333333333
-Mon Nov  5 17:01:13 2018
- server: 33333333222222222
-Mon Nov  5 17:01:15 2018
- server: 111111111111
-Mon Nov  5 17:01:16 2018
- server: 11
-Mon Nov  5 17:01:19 2018
- server: count
-Mon Nov  5 17:10:11 2018
- server start success
-Mon Nov  5 17:10:27 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 17:10:27 2018
- lzyprime : 
-
-Mon Nov  5 17:10:58 2018
- Bind failed.
-Mon Nov  5 17:13:28 2018
- server start success
-Mon Nov  5 17:13:38 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 17:13:38 2018
- lzyprime : 
-
-Mon Nov  5 17:13:44 2018
- lzyprime : count
-
-Mon Nov  5 17:13:52 2018
- lzyprime : count
-
-Mon Nov  5 17:14:06 2018
- lzyprime : 1
-
-Mon Nov  5 17:14:08 2018
- lzyprime : 2
-
-Mon Nov  5 17:14:09 2018
- lzyprime : 3
-
-Mon Nov  5 17:14:10 2018
- lzyprime : 33333
-
-Mon Nov  5 17:14:12 2018
- lzyprime : 1
-
-Mon Nov  5 17:14:13 2018
- lzyprime : 2
-
-Mon Nov  5 17:14:14 2018
- lzyprime : 3
-
-Mon Nov  5 17:14:17 2018
- lzyprime : 4
-
-Mon Nov  5 17:14:17 2018
- lzyprime : 5
-
-Mon Nov  5 17:14:17 2018
- lzyprime : 6
-
-Mon Nov  5 17:14:17 2018
- lzyprime : 7
-
-Mon Nov  5 17:14:20 2018
- lzyprime : count
-
-Mon Nov  5 17:16:00 2018
- server start success
-Mon Nov  5 17:16:11 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 17:16:11 2018
- lzyprime : 
-
-Mon Nov  5 17:16:28 2018
- server: lzyprime join, now online: 2
-Mon Nov  5 17:16:28 2018
- lzyprime : 
-
-Mon Nov  5 17:16:50 2018
- lzyprime : 1
-
-Mon Nov  5 17:16:51 2018
- lzyprime : 2
-
-Mon Nov  5 17:16:59 2018
- lzyprime : count
-
-Mon Nov  5 17:19:05 2018
- server start success
-Mon Nov  5 17:20:00 2018
- server start success
-Mon Nov  5 17:20:12 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 17:20:12 2018
- lzyprime : 
-
-Mon Nov  5 17:20:13 2018
- lzyprime : 
-
-Mon Nov  5 17:20:25 2018
- server: lzyprime join, now online: 2
-Mon Nov  5 17:20:25 2018
- lzyprime : 
-
-Mon Nov  5 17:20:32 2018
- server: lzyprime offline, now online: 0
-Mon Nov  5 17:23:03 2018
- server start success
-Mon Nov  5 17:23:14 2018
- server: lzyprime join, now online: 1
-Mon Nov  5 17:23:14 2018
- lzyprime : 
-
-Mon Nov  5 17:23:33 2018
- server: admin join, now online: 2
-Mon Nov  5 17:23:33 2018
- admin : 
-
-Mon Nov  5 17:23:42 2018
- lzyprime : sssssss
-
-Mon Nov  5 17:24:30 2018
- server: lzyprime offline, now online: 0
-Mon Nov  5 17:24:54 2018
- server: 
-Mon Nov  5 17:24:55 2018
- server: 
-Mon Nov  5 17:25:00 2018
- server: quit
-Tue Nov  6 09:59:15 2018
- server start success
-Tue Nov  6 09:59:33 2018
- server: 
- join, now online: 1
-Tue Nov  6 09:59:41 2018
- 
- : sss
-
-Tue Nov  6 09:59:44 2018
- 
- : qqqqqqqq
-
-Tue Nov  6 09:59:46 2018
- 
- : 33333333
-
-Tue Nov  6 10:04:39 2018
- server start success
-Tue Nov  6 10:04:52 2018
+Tue Nov  6 11:24:18 2018
  server: qwe join, now online: 1
-Tue Nov  6 10:04:52 2018
- qwe : 
-
-Tue Nov  6 10:05:01 2018
- qwe : www
-
-Tue Nov  6 10:05:04 2018
- qwe : eeeeeeeeeeeeee
-
-Tue Nov  6 10:05:45 2018
+Tue Nov  6 11:24:57 2018
  server: lzyprime join, now online: 2
-Tue Nov  6 10:05:45 2018
- lzyprime : 
-
-Tue Nov  6 10:06:04 2018
- qwe : 
-
-Tue Nov  6 10:06:11 2018
+Tue Nov  6 11:25:04 2018
+ lzyprime : 111111
+Tue Nov  6 11:28:35 2018
+ server: quit
+Tue Nov  6 11:28:42 2018
+ server start success
+Tue Nov  6 11:28:57 2018
+ server: asd join, now online: 1
+Tue Nov  6 11:29:00 2018
+ asd : aaa
+Tue Nov  6 11:29:02 2018
+ asd : sssssssss
+Tue Nov  6 11:29:20 2018
+ server: asd join, now online: 2
+Tue Nov  6 11:29:23 2018
+ asd : ssssssss
+Tue Nov  6 11:29:29 2018
+ asd : xxxxxxxxxx
+Tue Nov  6 11:29:32 2018
+ asd : zzzzzzzzzzzzzzzzz
+Tue Nov  6 11:29:46 2018
+ server: asd join, now online: 2
+Tue Nov  6 11:29:51 2018
+ asd : 
+Tue Nov  6 11:32:36 2018
+ server start success
+Tue Nov  6 11:32:44 2018
+ server: asd join, now online: 1
+Tue Nov  6 11:32:49 2018
+ asd : wha
+Tue Nov  6 11:32:52 2018
+ asd : wha
+Tue Nov  6 11:33:01 2018
+ server: qwe join, now online: 2
+Tue Nov  6 11:33:04 2018
+ qwe : wha
+Tue Nov  6 11:33:20 2018
+ server: quit
+Tue Nov  6 11:36:24 2018
+ server start success
+Tue Nov  6 11:36:33 2018
+ server: qwe join, now online: 1
+Tue Nov  6 11:36:43 2018
+ server: asd join, now online: 2
+Tue Nov  6 11:36:45 2018
+ asd : sss
+Tue Nov  6 11:36:48 2018
+ asd : ssssssssssss
+Tue Nov  6 11:36:50 2018
+ qwe : aaaaaaaaaa
+Tue Nov  6 11:36:52 2018
+ qwe : aaaaaaaaaaaaaaaaaaa
+Tue Nov  6 11:36:55 2018
+ server: qwe offline, now online: 1
+Tue Nov  6 11:37:16 2018
+ server: asd offline, now online: 0
+Tue Nov  6 11:37:48 2018
+ Bind failed.
+Tue Nov  6 11:39:33 2018
+ server start success
+Tue Nov  6 11:39:51 2018
+ server: qwe join, now online: 1
+Tue Nov  6 11:40:00 2018
+ server: asd join, now online: 2
+Tue Nov  6 11:40:17 2018
+ qwe : i'm
+Tue Nov  6 11:40:17 2018
+ qwe : qwe
+Tue Nov  6 11:40:32 2018
+ asd : i'm
+Tue Nov  6 11:40:32 2018
+ asd : liu
+Tue Nov  6 11:40:42 2018
+ server: what
+Tue Nov  6 11:40:42 2018
+ server: happen
+Tue Nov  6 11:43:21 2018
+ server start success
+Tue Nov  6 11:43:30 2018
+ server: qwe join, now online: 1
+Tue Nov  6 11:43:39 2018
+ server: asd join, now online: 2
+Tue Nov  6 11:43:43 2018
+ qwe : ok
+Tue Nov  6 11:43:58 2018
+ server: qwe offline, now online: 1
+Tue Nov  6 11:44:09 2018
+ server: asd offline, now online: 0
+Tue Nov  6 11:44:22 2018
+ server: qwe join, now online: 1
+Tue Nov  6 11:44:34 2018
+ server: admin join, now online: 2
+Tue Nov  6 11:44:38 2018
  server: quit
