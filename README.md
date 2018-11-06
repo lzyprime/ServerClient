@@ -21,3 +21,13 @@
 ### 选择模式：登录， 注册，然后输入相关信息，正确则加入聊天
 
 ### `quit` 退出， `count` 请求在线人数
+
+## ip 和 端口号
+
+### `create.sh` 负责生成可执行文件 `server` , `client`
+
+### 可执行文件接受 0 ~ 2 个 附加项
+- `./server` 无参， ip = 127.0.0.1 , port = 16666
+- `./server addr` addr为ip 地址， 替换默认ip
+- `./server addr port` ip, port 均手动指定
+- `client` 同上
