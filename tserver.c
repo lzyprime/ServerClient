@@ -27,6 +27,7 @@ void addlog(char *);
 void *quit();
 void *recv_send(void *arg);
 void *sendcount();
+
 int main(int argc, char const *argv[])
 {
     // creat socket
